@@ -1,0 +1,40 @@
+.App {
+  width: 90%; /* 전체 화면 90% 사용 */
+
+  margin: 0 auto; /* 가로 중앙 정렬 */
+  box-sizing: border-box; /* content box 사이즈 지정 */ 
+  background: linear-gradient(to right, #e0f7f5, #f6fffd); /* 오른쪽으로 엹은 그라데이션 */
+  padding: 20px; 
+  border: none; 
+  border-radius: 30px; /* 둥글게 둥글게 */
+  margin-top: 20px; /* 위쪽 여백 */ 
+  display: grid; 
+  gap:20px; /* 요소 와 사이 결정 */
+  flex-direction: column;
+
+
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); /* 그림자 속성 2개 겹침, 디자인에 예민하다면 이걸 신경써보는 것도 ㄱㅊ */
+}
+
+.main-layout{
+  display: flex;
+  gap: 10px;
+  align-items: flex-start; /* flex 컨테이너 안의 아이템을 세로 방향을 기준으로 하고 어떻게 정렬할지 결정 */
+}
+
+.Todoeditor{
+  width:auto;
+}
+
+.Todolist{
+  width:80%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #65FFBA; /* 원하는 색상 */
+  height: 100%;
+}
+
+

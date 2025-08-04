@@ -1,0 +1,38 @@
+/* id */ 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+.logo-text {
+  color: #2bbd8b;
+  font-weight: 800;
+  font-size : 30px;
+}
+
+.status-area {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+
+  padding: 8px 14px;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.status span {
+  margin-left: 6px;
+  display: inline-block;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  background-color: #2bbd8b;
+  border-radius: 50%;
+}
