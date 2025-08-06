@@ -50,7 +50,7 @@ TODO-LIST/
 ++ Todo-card 클릭 시 수정 창 따로 구현 필요
 
 --> Todo card 2025/08/02 사이즈 최적화 완료.
-
+<img width="869" height="362" alt="Image" src="https://github.com/user-attachments/assets/e0ff708e-8efa-4b7f-9d2c-c72dd610dd70" />
 ## ✔️ 차후 프로젝트 진행 시 개선 사항
 - FE, BE Architecture 확립
 - 백엔드 연동
